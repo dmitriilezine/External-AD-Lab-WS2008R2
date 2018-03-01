@@ -71,7 +71,7 @@
         "description": "the resource id of the subnet"
       }
     },
-    "adDNicName": {
+    "nicName": {
       "type": "string",
       "metadata": {
         "description": "Name of the Nic attached to the ad VM"

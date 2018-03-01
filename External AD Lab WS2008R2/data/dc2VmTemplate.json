@@ -27,7 +27,7 @@
         "description": "The domain name"
       }
     },
-    "adNicName": {
+    "nicName": {
       "type": "string",
       "metadata": {
         "description": "Name of the Nic attached to the ad VM"
