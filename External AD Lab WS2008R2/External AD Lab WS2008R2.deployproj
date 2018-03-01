@@ -29,6 +29,7 @@
     <Content Include="azuredeploy.parameters.json" />
     <None Include="data\appServer1Vm.json" />
     <None Include="data\dc1VmTemplate.json" />
+    <None Include="data\dc2VmTemplate.json" />
     <None Include="data\Deploy2008R2ADDS.zip" />
     <None Include="data\deployPrimaryAD.json" />
     <None Include="data\jumpServerVm.json" />

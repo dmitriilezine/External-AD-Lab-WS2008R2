@@ -403,7 +403,7 @@
       "properties": {
         "mode": "Incremental",
         "templateLink": {
-          "uri": "[variables('dc1TemplateURL')]",
+          "uri": "[variables('dc2TemplateURL')]",
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
@@ -425,13 +425,10 @@
           "vmSize": {
             "value": "[variables('VMSize')]"
           },
-          "NicName": {
+          "adNicName": {
             "value": "[variables('dc2NICName')]"
           },
-          "assetLocation": {
-            "value": "[variables('assetLocation')]"
-          },
-          "primaryIpAddress": {
+         "primaryADIpAddress": {
             "value": "[variables('primaryDC2IpAddress')]"
           },
           "domainName": {
