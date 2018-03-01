@@ -118,7 +118,7 @@
             "name": "ipconfig1",
             "properties": {
               "privateIPAllocationMethod": "Static",
-              "privateIPAddress": "[parameters('primaryIpAddress')]",
+              "privateIPAddress": "[parameters('primaryADIpAddress')]",
               "subnet": {
                 "id": "[parameters('subnetResourceID')]"
               }
