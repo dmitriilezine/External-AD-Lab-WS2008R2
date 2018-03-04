@@ -397,7 +397,7 @@
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2015-01-01",
       "dependsOn": [
-        "[variables('updateVNetDNS1')]",
+        "[variables('deployPrimaryAd')]",
         "[resourceId('Microsoft.Compute/availabilitySets',variables('adAvailabilitySetName'))]"
       ],
       "properties": {
@@ -477,7 +477,7 @@
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2015-01-01",
       "dependsOn": [
-        "[variables('deployPrimaryAdId')]"
+        "[variables('deployVNet')]"
       ],
       "properties": {
         "mode": "Incremental",
