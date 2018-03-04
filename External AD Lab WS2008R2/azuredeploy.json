@@ -129,7 +129,7 @@
   "variables": {
     "assetLocation": "https://raw.githubusercontent.com/dmitriilezine/External-AD-Lab-WS2008R2/master/External%20AD%20Lab%20WS2008R2",
     "VMSize": "Standard_A2",
-    "dc1VMOSVersion": "2008-R2-SP1",
+    "dc1VMOSVersion": "2012-R2-Datacenter",
     "dc2VMOSVersion": "2008-R2-SP1",
     "jumpserverVMOSVersion": "2016-Datacenter",
     "appServerVMOSVersion": "[parameters('AppServer1VMImageSKU')]",
@@ -477,7 +477,7 @@
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2015-01-01",
       "dependsOn": [
-        "[variables('deployVNet')]"
+        "[variables('deployPrimaryAdId')]"
       ],
       "properties": {
         "mode": "Incremental",

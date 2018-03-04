@@ -19,7 +19,8 @@
     "windowsImageSKU": {
       "type": "string",
       "allowedValues": [
-        "2008-R2-SP1"
+        "2008-R2-SP1",
+        "2012-R2-Datacenter"
       ],
       "metadata": {
         "description": "The SKU Name of Windows Image"
